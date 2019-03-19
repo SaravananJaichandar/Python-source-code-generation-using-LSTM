@@ -14,3 +14,9 @@ Yes ! We gonna build a LSTM model to generate python code for us !
 6. One-hot encoding the Y(labels)
 7. Building a LSTM model with 2-LSTM layers and a fully-connected layer
 8. Training and predicting to generate source code.
+
+Prediction results after running 10 Epochs :
+
+![alt-text](https://github.com/SaravananJaichandar/Python-source-code-generation-using-LSTM/blob/master/code_generator.png)
+
+As you can see, our model predicted a "function" starting with "def", and with correct indendations. We can improvise this by building a bigger model with 4 LSTM layers containing 500 or 700 neurons in each layer, but this could be computationally expensive and time-consuming if trained on CPU.
